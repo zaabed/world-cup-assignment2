@@ -14,11 +14,6 @@
 
      .header-image img {
          width: 100%;
-         transition: transform 0.5s linear;
-     }
-
-     .header-image img:hover {
-         transform: scale(1.5) rotate(0deg);
      }
 
      main {
