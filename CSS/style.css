@@ -3,14 +3,17 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    width: 1300px;
-    margin: 20px auto;
-
+    margin: 0;
 }
 
 /*---------------------
    header part
 ------------------- */
+header {
+    width: 1300px;
+    margin: 20px auto;
+}
+
 .header-container {
     display: flex;
     background-color: rgb(15, 14, 14);
@@ -51,6 +54,10 @@ body {
 /*---------------------
    Main part
 ------------------- */
+main {
+    width: 1300px;
+    margin: 20px auto;
+}
 
 /* button area */
 
@@ -126,6 +133,39 @@ button {
     text-align: center;
 }
 
+/*---------------------
+   footer part
+------------------- */
+footer {
+    margin-top: 100px;
+    background-color: rgb(15, 14, 14);
+}
+
+.footer-details {
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-title {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.footer-line {
+    width: 1300px;
+    margin: 30px auto;
+    border: 1px solid whitesmoke;
+}
+
+.footer-condition {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
 
 
 
