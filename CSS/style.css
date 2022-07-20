@@ -146,7 +146,6 @@ button {
 
 .player-details {
     border: 1px solid gray;
-    /* box-shadow: 10px 5px 5px gainsboro; */
     border-radius: 10px;
 }
 
@@ -166,6 +165,12 @@ button {
 
 .blog-paragraph {
     font-weight: 700;
+}
+
+.comment-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .blog-info {

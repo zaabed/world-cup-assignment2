@@ -1,62 +1,121 @@
-/* /*------------------------------ 
+ /*------------------------------ 
    Responsive For Mobile
 ------------------------- */
-@media screen and (max-width:688px) {
-    header {
-        width: 100%;
-    }
+ @media screen and (max-width:688px) {
+     header {
+         width: 100%;
+     }
 
-    .header-container {
-        margin: 60px;
-        flex-direction: column;
-        align-items: center;
-    }
+     .header-container {
+         margin: 60px;
+         flex-direction: column;
+         align-items: center;
+     }
 
-    .header-image img {
-        width: 100%;
-    }
+     .header-image img {
+         width: 100%;
+     }
 
-    main {
-        width: 100%;
-    }
+     main {
+         width: 100%;
+     }
 
-    .section-container {
-        margin: 60px;
-        flex-direction: column;
-        align-items: center;
-    }
+     .section-container {
+         margin: 60px;
+         flex-direction: column;
+         align-items: center;
+     }
 
-    .player-cart {
-        grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-    }
+     .link-button {
+         background-color: white;
+     }
 
-    .blog-image img {
-        width: 100%;
-    }
+     .first-button,
+     .second-button,
+     .third-button,
+     a {
+         font-size: 3vw;
 
-    .blog-details {
-        padding-left: 30px;
-    }
+     }
 
-    .link-button {
-        width: 100%;
-    }
+     .match-schedule {
+         grid-template-columns: repeat(1, 1fr);
+         width: 100%;
+     }
 
-    footer {
-        width: 100%;
-    }
 
-    .footer-title {
-        font-size: 10vw;
-    }
+     .player-cart {
+         grid-template-columns: repeat(1, 1fr);
+         width: 100%;
+     }
 
-    .footer-condition {
-        flex-direction: column;
-        font-size: 3vw;
-    }
+     .blog-image img {
+         width: 100%;
+     }
 
-    .social-icon {
-        font-size: 5vw;
-    }
-}
+     .blog-details {
+         padding-left: 30px;
+     }
+
+     .link-button {
+         width: 100%;
+     }
+
+     footer {
+         width: 100%;
+     }
+
+     .footer-title {
+         font-size: 10vw;
+     }
+
+     .footer-condition {
+         flex-direction: column;
+         font-size: 3vw;
+     }
+
+     .social-icon {
+         font-size: 5vw;
+     }
+ }
+
+ /*------------------------------ 
+   Responsive For Tablet
+------------------------- */
+ @media screen and (min-width: 689px) and (max-width:992px) {
+     header {
+         width: 100%;
+     }
+
+     .header-image {
+         width: 100%;
+     }
+
+     main {
+         width: 100%;
+     }
+
+     .section-container {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .link-button {
+         background-color: white;
+         width: 100%;
+         flex-direction: column;
+     }
+
+     .match-schedule {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .player-cart {
+         grid-template-columns: repeat(2, 1fr);
+         width: 100%;
+     }
+
+     footer {
+         width: 100%;
+     }
+ }
