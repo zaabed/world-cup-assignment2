@@ -204,6 +204,10 @@ footer {
     font-size: 30px;
 }
 
+.copyright {
+    color: white;
+}
+
 .footer-condition {
     display: flex;
     justify-content: center;
